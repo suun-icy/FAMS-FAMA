@@ -1,14 +1,14 @@
-package com.tatfook.fama.main.ui.gallery;
+package com.tatfook.fama.main.ui.stock;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class GalleryViewModel extends ViewModel {
+public class StockViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public GalleryViewModel() {
+    public StockViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("This is gallery fragment");
     }
